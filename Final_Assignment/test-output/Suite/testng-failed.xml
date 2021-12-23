@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Qtercognation.Final_Assignment.Login_page">
+        <methods>
+          <include name="loginbycredential"/>
+          <include name="vcolourcheck_white"/>
+          <include name="vcolourcheck_gold"/>
+        </methods>
+      </class> <!-- Qtercognation.Final_Assignment.Login_page -->
+      <class name="Qtercognation.Final_Assignment.Activity_Page">
+        <methods>
+          <include name="checkNamePic"/>
+        </methods>
+      </class> <!-- Qtercognation.Final_Assignment.Activity_Page -->
+      <class name="Qtercognation.Final_Assignment.Send_kudos">
+        <methods>
+          <include name="isableTo_wt_citation"/>
+        </methods>
+      </class> <!-- Qtercognation.Final_Assignment.Send_kudos -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
